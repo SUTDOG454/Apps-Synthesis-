@@ -1,0 +1,732 @@
+{
+  "metadata": {
+    "title": "Comprehensive Astrological Master Framework v1.0",
+    "description": "Integrated framework combining zodiac archetypes, asteroids/planetoids, sexual issues, lunar phases, economic data, Magi astrology, Atropos asteroid, essential dignities, chart types, and elemental/modal delineations.",
+    "version": "1.0",
+    "last_updated": "2026-06-10",
+    "sources": [
+      "Jeffrey Wolf Green (zodiac)",
+      "Demetra George (asteroids)",
+      "Jason Holley (ongoing research)",
+      "Magi Society minibooks",
+      "Ptolemy's Essential Dignities",
+      "Patchwork Soul lunar phase data",
+      "Economic and IPO backtest data (2000-2250)"
+    ],
+    "notes": "Under continuous development. Framework modular and extensible."
+  },
+  "sexual_issues_framework": {
+    "meta": {
+      "title": "Sexual Issues Associated with the 12 Archetypes and Select Asteroids/Planetoids",
+      "notes": "These associations may apply when these archetypes are a part of the sexual signature of the chart. The information is offered to help individuals identify the archetypal 'frequency' to which certain sexual issues may correspond and is not a comprehensive characterization of the sexual dimensions of the archetypes."
+    },
+    "zodiac_archetypes": [
+      {
+        "name": "Aries",
+        "number": 1,
+        "ruler": "Mars",
+        "sexual_issues": [
+          "passion / fire",
+          "begins/ends quickly",
+          "body obsession",
+          "narcissism",
+          "domineering",
+          "eroticized rage",
+          "direct/strong come-on",
+          "sexualized violence",
+          "animal magnetism",
+          "Marlboro man",
+          "impulsiveness",
+          "desires intense stimulation",
+          "wants fireworks",
+          "orgasm-oriented"
+        ]
+      },
+      {
+        "name": "Taurus",
+        "number": 2,
+        "ruler": "Venus",
+        "sexual_issues": [
+          "sensation oriented",
+          "body aware",
+          "masturbation",
+          "sensuality",
+          "isolation",
+          "possessiveness",
+          "stagnancy",
+          "'in a rut'",
+          "role stereotypes",
+          "boundary containment",
+          "money for sex",
+          "vicarious",
+          "alone when together",
+          "'meat and potatoes'"
+        ]
+      },
+      {
+        "name": "Gemini",
+        "number": 3,
+        "ruler": "Mercury",
+        "sexual_issues": [
+          "bisexuality",
+          "polyamory",
+          "toys and devices",
+          "sibling incest",
+          "'try anything once'",
+          "deception",
+          "foreplay oriented",
+          "'metrosexual'",
+          "hermaphroditic",
+          "can't stop thinking",
+          "frozen organs",
+          "dryness",
+          "games / keep it light",
+          "fetish objects"
+        ]
+      },
+      {
+        "name": "Cancer",
+        "number": 4,
+        "ruler": "Moon",
+        "sexual_issues": [
+          "nurturing/caring",
+          "orality",
+          "breasts",
+          "seeking security",
+          "parental incest",
+          "wants mothering",
+          "enmeshment",
+          "creates dependencies",
+          "sex to process emotion",
+          "sex and food",
+          "give to get",
+          "need satiation",
+          "warmth",
+          "wants to feel safe",
+          "needs familiarity"
+        ]
+      },
+      {
+        "name": "Leo",
+        "number": 5,
+        "ruler": "Sun",
+        "sexual_issues": [
+          "play",
+          "self-expression",
+          "exhibitionism",
+          "validation/approval",
+          "adonis complex",
+          "trapped in mirror",
+          "worship",
+          "trophies, conquests",
+          "narcissism",
+          "penis/vagina",
+          "phallocentrism",
+          "role play",
+          "performance oriented",
+          "body display",
+          "children"
+        ]
+      },
+      {
+        "name": "Virgo",
+        "number": 6,
+        "ruler": "Mercury",
+        "sexual_issues": [
+          "purification",
+          "technical proficiency",
+          "guilt/atonement",
+          "sadomasochism",
+          "never good enough",
+          "lack",
+          "barrenness",
+          "perfect pictures",
+          "obsessive compulsive",
+          "slavery/service",
+          "sexual anorexia",
+          "eroticize pain",
+          "body dysmorphic",
+          "dryness"
+        ]
+      },
+      {
+        "name": "Libra",
+        "number": 7,
+        "ruler": "Venus",
+        "sexual_issues": [
+          "multiple partners",
+          "'don juans'",
+          "compare/contrast",
+          "beauty obsession",
+          "give partner what partner wants",
+          "graceful",
+          "date rape",
+          "\"can't say no\"",
+          "focus on partner's orgasm",
+          "environment just right",
+          "same-sex love",
+          "wants it pretty"
+        ]
+      },
+      {
+        "name": "Scorpio",
+        "number": 8,
+        "ruler": "Pluto",
+        "sexual_issues": [
+          "merger",
+          "wants intensity/depth",
+          "expects betrayal",
+          "power exchange",
+          "violation/rape",
+          "manipulation",
+          "deception",
+          "prostitution",
+          "compulsions/obsessions",
+          "boundary problems",
+          "distrust/suspicion",
+          "expect betrayal",
+          "eroticize fear",
+          "femmes fatales"
+        ]
+      },
+      {
+        "name": "Sagittarius",
+        "number": 9,
+        "ruler": "Jupiter",
+        "sexual_issues": [
+          "wants freedom",
+          "cosmology of sex",
+          "everything has a meaning",
+          "compensation",
+          "religious material",
+          "exotic is erotic",
+          "adventurous",
+          "bigger is better",
+          "more is better",
+          "teacher role",
+          "outdoors",
+          "like to be natural"
+        ]
+      },
+      {
+        "name": "Capricorn",
+        "number": 10,
+        "ruler": "Saturn",
+        "sexual_issues": [
+          "appropriateness",
+          "daddy/daddy's girl",
+          "daddy/son dynamics",
+          "eroticized shame",
+          "anus",
+          "judgment/standards",
+          "protocols",
+          "concealment",
+          "stoicism",
+          "bondage/discipline",
+          "repression",
+          "submerged anger",
+          "in control, repressed",
+          "desire to lose control"
+        ]
+      },
+      {
+        "name": "Aquarius",
+        "number": 11,
+        "ruler": "Uranus",
+        "sexual_issues": [
+          "sexual liberation",
+          "experimentation",
+          "mental / conceptual",
+          "\"kink\" / odd",
+          "groups",
+          "internet/media",
+          "cameras / filming",
+          "voyeurism/pornography",
+          "traumatized",
+          "disembodied",
+          "in shock / absent",
+          "detachment/clinical",
+          "'friends with benefits'",
+          "rebellion"
+        ]
+      },
+      {
+        "name": "Pisces",
+        "number": 12,
+        "ruler": "Neptune",
+        "sexual_issues": [
+          "sacred sex",
+          "ritualized sex",
+          "role play",
+          "confusion",
+          "escape/dissociation",
+          "idealization/deification",
+          "atonement",
+          "sadomasochism",
+          "\"rescue me\"",
+          "victimization",
+          "fantasy",
+          "\"purple haze\"",
+          "hiding/shyness",
+          "sex with drugs"
+        ]
+      }
+    ],
+    "asteroids_planetoids": [
+      {
+        "name": "Chiron",
+        "sexual_issues": [
+          "deformities",
+          "sexual healing",
+          "sexual mentorship"
+        ]
+      },
+      {
+        "name": "Eros",
+        "sexual_issues": [
+          "\"flow\" of sexual energy",
+          "male homosexuality"
+        ]
+      },
+      {
+        "name": "Ceres",
+        "sexual_issues": [
+          "loss of innocence",
+          "grief/loss related to sex (e.g. death, abortions)"
+        ]
+      },
+      {
+        "name": "Pallas",
+        "sexual_issues": [
+          "transvestism",
+          "gender bending",
+          "covert incest"
+        ]
+      },
+      {
+        "name": "Vesta",
+        "sexual_issues": [
+          "prostitution",
+          "sacred sexuality",
+          "celibacy"
+        ]
+      },
+      {
+        "name": "Juno",
+        "sexual_issues": [
+          "fidelity and betrayal",
+          "intimate treason",
+          "sexual rage"
+        ]
+      }
+    ]
+  },
+  "lunar_phases": {
+    "description": "Eight lunar phase interpretations with actions, timing and keywords, extracted from Patchwork Soul lunar phase data.",
+    "phases": [
+      {
+        "name": "New Moon",
+        "duration": "1 day",
+        "actions": "Set clear goals, reflect, reset, define direction",
+        "keywords": ["reset", "intention", "beginning", "seed"]
+      },
+      {
+        "name": "Waxing Crescent",
+        "duration": "7 days",
+        "actions": "Build momentum, refine focus, explore best ways to achieve objectives",
+        "keywords": ["growth", "momentum", "planning", "early action"]
+      },
+      {
+        "name": "First Quarter",
+        "duration": "1 day",
+        "actions": "Take action, push through resistance, commit to chosen path",
+        "keywords": ["action", "decision", "momentum", "challenge"]
+      },
+      {
+        "name": "Waxing Gibbous",
+        "duration": "6 days",
+        "actions": "Refine, adjust, strengthen, tidy up loose ends, prepare for outcomes",
+        "keywords": ["refinement", "adjustment", "preparation", "strengthening"]
+      },
+      {
+        "name": "Full Moon",
+        "duration": "1 day",
+        "actions": "Acknowledge what works, release what doesn't, gain perspective",
+        "keywords": ["culmination", "clarity", "release", "perspective"]
+      },
+      {
+        "name": "Waning Gibbous",
+        "duration": "6 days",
+        "actions": "Reflect, share progress, consolidate learnings, express appreciation",
+        "keywords": ["reflection", "learning", "sharing", "consolidation"]
+      },
+      {
+        "name": "Last Quarter",
+        "duration": "1 day",
+        "actions": "Evaluate, let go of what's complete, simplify, create space",
+        "keywords": ["evaluation", "release", "simplify", "cleanse"]
+      },
+      {
+        "name": "Dark Moon (Balsamic)",
+        "duration": "4 days",
+        "actions": "Rest, step back, allow closure, reset mindset, restore energy",
+        "keywords": ["rest", "closure", "introversion", "reset"]
+      }
+    ],
+    "financial_application": "Align trading entries with Waxing phases (build positions), exits with Waning phases (take profits). New Moon = sector rotation planning; Full Moon = volatility climax."
+  },
+  "magi_astrology": {
+    "description": "Key principles from Magi Society minibooks, emphasizing planetary geometry, Chiron as soulmate indicator, linkages, and Golden Linkages for love and money.",
+    "core_principles": [
+      "Planetary Geometry > Sun signs: symmetrical patterns (Grand Trine, T-square, Yod) are celestial signs of consequential events.",
+      "Chiron (discovered 1977) is the most important planet for relationships – the arrow that points to your soulmate.",
+      "Every person has two birth charts: Zodiac Sign Chart (longitudes) and Declinations Chart (vertical positions).",
+      "Enhancement aspects (conjunction, trine, parallel, contra-parallel) are most beneficial; squares and oppositions are turbulent.",
+      "Romantic Super Linkages (Chiron linkage + aspect) strongly indicate marriage.",
+      "Golden Linkages (Venus-Chiron, Jupiter-Chiron, Jupiter-Pluto, Pluto-Chiron, Venus-Pluto) predict financial and career success in partnerships."
+    ],
+    "planetary_symbolisms": {
+      "Sun": "entity, day, person, heart, vitality",
+      "Moon": "emotions, moods, subconscious, fear, greed",
+      "Mercury": "communication, mind, travel, reflexes, writing",
+      "Venus": "attraction, money, beauty, seduction, grace, female sexuality",
+      "Mars": "energy, war, aggression, male sexuality, athletics, body movement",
+      "Jupiter": "success, good fortune, peace, forgiveness, religion, expansion",
+      "Saturn": "limitation, restriction, control, karma, discipline, delay",
+      "Uranus": "fame, public, change, inventions, freedom, independence",
+      "Neptune": "longevity, creativity, illusions, oil, electricity, medicine, water",
+      "Pluto": "power, big business, sex act, transformation, obsession, debt",
+      "Chiron": "marriage, family, trust, charisma, career, free enterprise"
+    },
+    "special_linkages": {
+      "Romance_Linkages": [
+        "Venus-Chiron (Magical)",
+        "Jupiter-Chiron",
+        "Chiron-Neptune (Lifetime)",
+        "Venus-Neptune",
+        "Sun-Venus (Cupid)"
+      ],
+      "Sexual_Linkages": [
+        "Venus-Pluto",
+        "Mars-Pluto",
+        "Venus-Mars"
+      ],
+      "Golden_Linkages": [
+        "Venus-Chiron",
+        "Jupiter-Chiron",
+        "Jupiter-Pluto",
+        "Pluto-Chiron",
+        "Venus-Pluto"
+      ],
+      "Cinderella_Linkages": [
+        "Venus-Chiron",
+        "Jupiter-Chiron",
+        "Chiron-Neptune"
+      ]
+    },
+    "electional_astrology": {
+      "natalization": "When you first do something (meet, marry, start a job), that moment's chart becomes the birth chart of that relationship/activity.",
+      "magical_time": "Aspects are most powerful within 3 days of exactness (time orb, not degree orb).",
+      "avoid_turbulent_transits": "Do not marry or start a business when Saturn makes a turbulent aspect (square, opposition, quincunx) to your natal planets."
+    }
+  },
+  "atropos_asteroid_273": {
+    "description": "Atropos, the third Fate (Moira), cuts the thread of life – represents inevitable endings, karmic completion, and non-negotiable closure.",
+    "keywords": [
+      "cutter of fate",
+      "inevitable end",
+      "completion",
+      "finality",
+      "death",
+      "termination",
+      "closure",
+      "release",
+      "karmic cutoff"
+    ],
+    "interpretation_by_house": {
+      "1st": "Identity death/rebirth cycles; persona transformation",
+      "2nd": "End of income streams or values; financial closure",
+      "3rd": "Cutting ties with siblings or mental patterns",
+      "4th": "Family endings, ancestral closure, home transitions",
+      "5th": "Creative or romantic cycles ending",
+      "6th": "Job or health habit endings",
+      "7th": "Relationship/karmic contract completion",
+      "8th": "Literal or symbolic death; inheritance closure",
+      "9th": "Belief system endings; spiritual completion",
+      "10th": "Career or public identity closure; retirement",
+      "11th": "Friendship endings; group departures",
+      "12th": "Karmic dissolution; soul contracts ending"
+    },
+    "special_configurations": {
+      "conjunct_Sun": "Identity death timing; major life chapter ends",
+      "conjunct_Moon": "Emotional endings; family cycles close",
+      "conjunct_ASC": "Persona death; reinvention",
+      "conjunct_MC": "Career or public identity closure",
+      "conjunct_Pluto": "Extreme endings; total annihilation of a cycle",
+      "conjunct_Chiron": "Healing through closure; wound cycle ends"
+    },
+    "timing": "Transiting Atropos triggers endings; Progressed Atropos shows internal readiness. Atropos return cycles at ages ~27, 54, 81."
+  },
+  "essential_dignities_ptolemaic": {
+    "description": "Ptolemy's Table of Essential Dignities with point values for planetary strength.",
+    "rules": [
+      {
+        "condition": "In Taurus or Pisces sign",
+        "points": 5
+      },
+      {
+        "condition": "In Libra, Sagittarius, Leo or Cancer sign",
+        "points": 4
+      },
+      {
+        "condition": "In Gemini sign",
+        "points": 3
+      },
+      {
+        "condition": "In Virgo sign",
+        "points": 2
+      },
+      {
+        "condition": "In terms of Jupiter or Venus (Ptolemaic terms)",
+        "points": 2
+      },
+      {
+        "condition": "Conjunction with Jupiter or Venus",
+        "points": 5
+      },
+      {
+        "condition": "Trine with Jupiter or Venus",
+        "points": 4
+      },
+      {
+        "condition": "Sextile with Jupiter or Venus",
+        "points": 2
+      },
+      {
+        "condition": "Conjunction with North Node",
+        "points": 3
+      },
+      {
+        "condition": "In 1st or 10th house",
+        "points": 5
+      },
+      {
+        "condition": "In 7th, 4th or 11th house",
+        "points": 4
+      },
+      {
+        "condition": "In 2nd or 5th house",
+        "points": 3
+      },
+      {
+        "condition": "In 9th house",
+        "points": 2
+      },
+      {
+        "condition": "In 3rd house",
+        "points": 1
+      },
+      {
+        "condition": "Conjunct fixed star Regulus",
+        "points": 6
+      },
+      {
+        "condition": "Conjunct fixed star Spica",
+        "points": 5
+      },
+      {
+        "condition": "Free from combustion and Sun's beams",
+        "points": 5
+      },
+      {
+        "condition": "In Scorpio, Capricorn or Sagittarius sign",
+        "points": -5
+      },
+      {
+        "condition": "Conjunction with Mars or Saturn",
+        "points": -5
+      },
+      {
+        "condition": "Conjunction with South Node",
+        "points": -3
+      },
+      {
+        "condition": "Opposition with Mars or Saturn",
+        "points": -4
+      },
+      {
+        "condition": "Square with Mars or Saturn",
+        "points": -3
+      },
+      {
+        "condition": "In terms of Mars or Saturn",
+        "points": -2
+      },
+      {
+        "condition": "In 12th house",
+        "points": -5
+      },
+      {
+        "condition": "In 8th house",
+        "points": -4
+      },
+      {
+        "condition": "In 6th house",
+        "points": -4
+      },
+      {
+        "condition": "Conjunct fixed star Algol",
+        "points": -4
+      },
+      {
+        "condition": "Combust (within 8°30' of Sun)",
+        "points": -5
+      }
+    ],
+    "algorithm": "Sum points to determine planetary strength (Affetic, Perigrine, etc.). Higher positive = more dignified."
+  },
+  "chart_types_reference": {
+    "description": "52 chart types categorized into Foundational, Relationship, and Predictive (from Chttyps.txt). Each with technical specifications, calculation methods, primary uses.",
+    "foundational": [
+      {
+        "name": "Natal Chart",
+        "function": "Cosmic blueprint, genetic inheritance",
+        "requires": "birth date, time, location",
+        "house_systems": ["Placidus", "Koch", "Regiomontanus", "Whole Sign"]
+      },
+      {
+        "name": "Draconic Chart",
+        "function": "Soul purpose, karmic patterns",
+        "calculation": "Place North Node at 0° Aries, adjust all planets accordingly"
+      },
+      {
+        "name": "Nine Persona Charts",
+        "function": "Planetary sub-personalities",
+        "calculation": "Sun's first conjunction with each natal planet after birth"
+      },
+      {
+        "name": "Harmonic Charts",
+        "function": "Hidden potentials, aspect families",
+        "formula": "Hn = (Natal longitude × n) mod 360"
+      },
+      {
+        "name": "Prenatal Epoch",
+        "function": "Conception chart, rectification",
+        "principle": "Moon's position at birth relates to Ascendant at conception"
+      }
+    ],
+    "relationship": [
+      {
+        "name": "Synastry",
+        "function": "Inter-chart aspects and house overlays",
+        "visual": "Bi-wheel"
+      },
+      {
+        "name": "Composite Chart",
+        "function": "Midpoint chart of the relationship",
+        "formula": "Midpoint = (A + B)/2"
+      },
+      {
+        "name": "Davison Chart",
+        "function": "Time-space midpoint chart",
+        "formula": "Midpoint in time AND location between two births"
+      },
+      {
+        "name": "Progressed Synastry",
+        "function": "Evolution of relationship using progressed charts"
+      },
+      {
+        "name": "Progressed Composite",
+        "function": "Relationship's own progression"
+      },
+      {
+        "name": "Draconic Synastry",
+        "function": "Soul-level karmic connections"
+      }
+    ],
+    "predictive": [
+      {
+        "name": "Transit Chart",
+        "function": "Current sky overlay on natal",
+        "orb": "0.5°-3° depending on planet speed"
+      },
+      {
+        "name": "Secondary Progressions",
+        "function": "1 day = 1 year",
+        "key": "Progressed Moon (~2.5 years per sign)"
+      },
+      {
+        "name": "Solar Arc Directions",
+        "function": "All planets advanced at Sun's rate (~1° per year)"
+      },
+      {
+        "name": "Tertiary Progressions",
+        "function": "1 lunar month = 1 year"
+      },
+      {
+        "name": "Solar Return",
+        "function": "Chart for exact moment Sun returns to natal position each year"
+      },
+      {
+        "name": "Lunar Return",
+        "function": "Chart for exact moment Moon returns to natal position (~27.3 days)"
+      },
+      {
+        "name": "Annual Profections",
+        "function": "House activation by sign (Hellenistic technique)"
+      }
+    ]
+  },
+  "elements_qualities_hemispheres": {
+    "description": "Delineations for elemental, modal, and hemispheric balance in a chart.",
+    "element_preponderance": {
+      "Fire": "high spirits, enthusiasm, self‑confidence, natural leadership, but can be egotistical and overwhelming.",
+      "Earth": "practical, cautious, dependable, material success, but may lack imagination and be rigid.",
+      "Air": "intellectual, communicative, objective, but may be impractical and detached.",
+      "Water": "emotional, intuitive, sensitive, nurturing, but may be overly sentimental and moody."
+    },
+    "element_combinations": {
+      "Fire+Earth": "powerful, creative, results‑oriented, but can be insensitive.",
+      "Fire+Air": "idealistic, positive, good communicator, but may lack follow-through.",
+      "Fire+Water": "intense, emotional, impulsive, but lacks objectivity.",
+      "Earth+Air": "balanced between abstract and practical, good at planning, somewhat dry.",
+      "Earth+Water": "serious, hard-working, security-conscious, but may be fearful and attached to past.",
+      "Air+Water": "attuned to both thought and feeling, imaginative, good with people."
+    },
+    "element_absence": {
+      "Fire": "needs passion and self-assertion; may be too cautious.",
+      "Earth": "may be impractical; difficulty with money and follow-through.",
+      "Air": "may lack objectivity and communication skills; compensates with intensity.",
+      "Water": "may lack empathy and emotional depth; recovers quickly from setbacks."
+    },
+    "modal_preponderance": {
+      "Cardinal": "initiative, action, leadership, but may be impatient.",
+      "Fixed": "perseverance, determination, loyalty, but may be stubborn.",
+      "Mutable": "adaptability, flexibility, versatility, but may be scattered and indecisive."
+    },
+    "hemisphere_preponderance": {
+      "Eastern": "independent, self-motivated, author of own destiny.",
+      "Western": "dependent on others, adaptive, works well in partnerships.",
+      "Southern (above horizon)": "ambitious, career-oriented, public life.",
+      "Northern (below horizon)": "private, introspective, subjective.",
+      "Northeast": "self-contained, private, strong faith in own abilities.",
+      "Southeast": "outward, shares with others, measures success by others' opinion.",
+      "Northwest": "adaptive, creative, influenced by others.",
+      "Southwest": "open, exposed, public, but may lack control."
+    }
+  },
+  "integration_notes": {
+    "framework_name": "Comprehensive Astrological Master Framework v1.0",
+    "modules": [
+      "sexual_issues_framework",
+      "lunar_phases",
+      "magi_astrology",
+      "atropos_asteroid_273",
+      "essential_dignities_ptolemaic",
+      "chart_types_reference",
+      "elements_qualities_hemispheres"
+    ],
+    "usage": "All modules are independent and can be used alongside each other. This framework serves as the master reference for all astrological apps and synthesis tools.",
+    "extensibility": "Additional modules (fixed stars, harmonics, economic data, IPO backtests, etc.) can be added as needed."
+  }
+}
